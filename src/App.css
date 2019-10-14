@@ -1,22 +1,80 @@
-.App {
-  text-align: center;
+body {
+	padding: 50px;
+	background-color: #66CCFF;
+	font-family: sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
+#container {
+	display: flex;
+	justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-right {
+	text-align: right;
+	color: gray;
 }
 
-.App-link {
-  color: #09d3ac;
+.todoListMain form {
+	width: 350px;
+}
+
+.todoListMain .header input {
+	padding: 10px;
+	font-size: 16px;
+	width: 75%;
+	border: 2px solid #FFF;
+}
+
+.todoListMain .header button {
+	padding: 10px;
+	font-size: 16px;
+	margin: 10px;
+	margin-right: 0px;
+	background-color: #0066FF;
+	color: #FFF;
+	border: 2px solid #0066FF;
+}
+
+.todoListMain .header button:hover {
+	background-color: #003399;
+	border: 2px solid #003399;
+	cursor: pointer;
+}
+
+.todoListMain .theList {
+	list-style: none;
+	padding-left: 0;
+}
+
+.todoListMain .theList li {
+	color: #333;
+	background-color: rgba(255, 255, 255, .5);
+	padding: 15px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	list-style: none;
+}
+
+ul.theList {
+	padding: 0;
+}
+
+.todoListMain .theList li {
+	color: #333;
+	background-color: rgba(255, 255, 255, .5);
+	padding: 15px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	-webkit-transition: background-color .2s ease-out;
+	-o-transition: background-color .2s ease-out;
+	transition: background-color .2s ease-out;
+}
+
+.todoListMain .theList li:hover {
+	background-color: pink;
+	cursor: pointer;
+}
+
+.rounded {
+	border-radius: 6px;
 }
