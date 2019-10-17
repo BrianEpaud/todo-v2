@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 
 const Header = ({change,add,input, placeholder}) => {
     return (
+        <div>
+
+     
         <form onSubmit={(e) => { e.preventDefault(); add() }}>
             <input
                 onChange={(e) => change(e)}
@@ -12,6 +15,7 @@ const Header = ({change,add,input, placeholder}) => {
         
             <button className="rounded">Ajouter</button>
         </form>
+        </div>
     )
 }
 
