@@ -41,7 +41,10 @@ export default class Todo extends Component {
 
     componentDidMount() {
         let items = JSON.parse(localStorage.getItem('items'))
-        this.setState({ items: items })
+        if (items){
+            this.setState({ items: items })
+            }
+       
     }
 
     handleChange = (e) => {

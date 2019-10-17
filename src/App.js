@@ -27,9 +27,6 @@ export default class App extends React.Component {
         <footer className="footer">
           <p>Weather Data from <a href="https://openweathermap.org" rel="noopener noreferrer" target="_blank">Openweathermap.org</a></p>
         </footer>
-
-
-
       </div>
     );
   }
