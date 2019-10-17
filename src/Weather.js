@@ -29,7 +29,7 @@ export default class Weather extends Component {
         this.state = {
             baseURL: 'https://api.openweathermap.org/data/2.5/weather?',
             APIkey: 'ffe77524d7919ae2f90d39fbaa31f4eb',
-            query: 'Nantes',
+            query: 'Les Sables-dOlonne',
             forecast: {},
             placeholder: "Quel temps fait-il? ..." 
         }
